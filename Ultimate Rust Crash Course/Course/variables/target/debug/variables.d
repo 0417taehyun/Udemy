@@ -1,0 +1,1 @@
+/Users/0417taehyun/Documents/Study/Udemy/Ultimate\ Rust\ Crash\ Course/Course/variables/target/debug/variables: /Users/0417taehyun/Documents/Study/Udemy/Ultimate\ Rust\ Crash\ Course/Course/variables/src/main.rs
