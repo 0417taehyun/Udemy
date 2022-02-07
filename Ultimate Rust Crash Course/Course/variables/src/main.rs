@@ -2,6 +2,8 @@
 const STARTING_MISSILES: i32 = 8;
 const READY_AMOUNT: i32 = 2;
 
+const THE_TYPE: &str = "Human";
+
 fn main() {
     let missiles = 8;
     let ready = 2;
@@ -51,4 +53,12 @@ fn main() {
     a = "New A";
     b = "New B";
     println!("This is New! {}. {}", a, b);
+
+    
+    let (me, mut name) = ("Taehyun", "James");
+    println!("Hey, {}! This is {}. We are {}", me, name, THE_TYPE);
+
+    let group = THE_TYPE;
+    name = "Risa";
+    println!("Hey, {}! This is {}. We are {}", me, name, group);
 }
